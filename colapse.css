@@ -1,0 +1,87 @@
+.collapsible {
+	background-color: transparent;
+	color:#CB8B27;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+	background-color: transparent;
+	border: none;
+	color: black;
+  }
+  
+  .content {
+	padding: 0 18px;
+	max-height: "100px";
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: transparent;
+  }
+
+  .titulospoesia{
+	font-family: Rubik;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 1.9999994039535522px;
+	text-align: left;	
+	color: #CB8B27;
+  }
+
+.poesia{
+	font-family: Rubik;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 17px;
+	letter-spacing: 1.1666662693023682px;
+	text-align: left;
+	white-space: pre-wrap;
+}
+
+body{
+	padding: 0px;
+	background:#fff;
+  }
+  .wrapper{
+	width:90%;
+  }
+  @media(max-width:992px){
+   .wrapper{
+	width:100%;
+  } 
+  }
+  .panel-heading {
+	padding: 0;
+	  border:0;
+  }
+  .panel-title>a, .panel-title>a:active{
+	  display:block;
+	  padding:15px;
+	color:#CB8B27;
+	font-size:16px;
+	font-weight:bold;
+	  text-transform:uppercase;
+	  letter-spacing:1px;
+	word-spacing:3px;
+	  text-decoration:none;
+  }
+  .panel-heading  a:before {
+	 font-family: 'Glyphicons Halflings';
+	 content: "\e114";
+	 float: right;
+	 transition: all 0.5s;
+  }
+  .panel-heading.active a:before {
+	  -webkit-transform: rotate(180deg);
+	  -moz-transform: rotate(180deg);
+	  transform: rotate(180deg);
+  } 
+

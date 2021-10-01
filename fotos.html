@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/gelasio" type="text/css"/> 
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Ricardo Sierra</title>
+</head>
+<body>
+    
+    <div align="center" id="textologomenu">
+        <p>Ricardo Sierra</p>
+    </div>
+    <!-- responsive top menu -->
+    <div class="topnav" id="myTopnav" style="width: 100%; display: flex; justify-content: center;">
+        <div class="topnav-centered">
+            <a style="visibility: hidden;" href="#Inicio"></a>
+            <a href="#Inicio" onClick="location.href='main.html'">Inicio</a>
+            <a href="#Bio" onClick="location.href='bio.html'">Bio</a>
+            <a href="#Escritos" onClick="location.href='escritos.html'">Escritos</a>
+            <a href="#MiTrabajo" onClick="location.href='mitrabajo.html'">Mi trabajo</a>
+            <a href="#Fotos" class="active" onClick="location.href='fotos.html'">Fotos</a>
+            <a href="#Contacto" onClick="location.href='contacto.html'">Contacto</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+<br><br><br>
+
+<div align="center" class="container">
+    <h2 id="titulosconraya" style="text-align:left;">
+        <span style="color:black;font-weight:bold;">Fotos</span>
+    </h2>
+</div>
+
+    <footer class="container-fluid white py-5" style="background: #CB8B27;cursor: default;">
+        <div class="col-md-3">
+            <div class="">
+                <div align="center" id="textologofooter">
+                    <p>Ricardo Sierra</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="container">
+                <ul style="list-style-type:none;padding-left:-20px;padding-inline-start: 0px;">
+                    <li> <a id="textosfooter" onClick="location.href='main.html'">Inicio</a> </li>
+                    <li> <a id="textosfooter" onClick="location.href='bio.html'">Bio</a> </li>
+                    <li> <a id="textosfooter" onClick="location.href='escritos.html'">Escritos</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="container">
+                <ul style="list-style-type:none;padding-left:-20px;padding-inline-start: 0px;">
+                    <li> <a id="textosfooter" onClick="location.href='mitrabajo.html'">Mi trabajo</a> </li>
+                    <li> <a id="textosfooter" onClick="location.href='fotos.html'">Fotos</a> </li>
+                    <li> <a id="textosfooter" onClick="location.href='contacto.html'">Contacto</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="container">
+                <p class="textofooterdeux">Diseñado por <a href="http://designdeux.com/" target="_blank" style="color:white;">DEUX®</a> Diseño de experiencia</p>
+            </div>
+        </div>
+        <br>
+    </footer>
+
+</body>
+</html>

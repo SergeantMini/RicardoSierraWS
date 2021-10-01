@@ -1,0 +1,140 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8">
+		<title>Ricardo Sierra</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/gelasio" type="text/css"/> 
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body style="overflow-x:hidden;">
+		<div align="center" id="textologomenu">
+			<p>Ricardo Sierra</p>
+		</div>
+		<!-- responsive top menu -->
+		<div class="topnav" id="myTopnav" style="width: 100%; display: flex; justify-content: center;">
+			<div class="topnav-centered">
+				<a style="visibility: hidden;" href="#Inicio"></a>
+				<a href="#Inicio" onClick="location.href='main.html'">Inicio</a>
+				<a href="#Bio" class="active" onClick="location.href='bio.html'">Bio</a>
+				<a href="#Escritos" onClick="location.href='escritos.html'">Escritos</a>
+				<a href="#MiTrabajo" onClick="location.href='mitrabajo.html'">Mi trabajo</a>
+				<a href="#Fotos" onClick="location.href='fotos.html'">Fotos</a>
+				<a href="#Contacto" onClick="location.href='contacto.html'">Contacto</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>			
+		<script>
+			/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+		</script>
+		
+		<br><br><br>
+		
+		<div align="center" class="container">
+			<div style="border-radius:50%;background-color: gray; width:250px;height:250px;">
+				<img src="./imagenes/bio/RichBio.png" style="width:250px;height:250px;">
+			</div>
+			<br><br>
+			<h2 id="titulosconraya"><span>¿Quién soy?</span></h2>
+		</div>
+
+		<br><br>
+
+		<div class="container">
+			<div class="col-sm-6">
+				<div class="container">
+					<p id="textobio">
+						<span style="color: #CB8B27">Ricardo Sierra</span>  es una persona preocupada y ocupada en el acontecer artístico y cultural de México y el mundo. Sus intereses lo han llevado a explorar y descurbir nuevas expresiones artísticas, sumar a las propuestas temas sociales, de inclusión y colectividad.
+Ha sido escritor por más de diez años, tanto en narrativa (cuento, novela, etc.) como también en guiones para cortometrajes y textos teatrales. Encuentra en la escritura no solamente una manera de describir o contar la realidad, sino también, lo ve como un ritual, una manera de conectarse con el interior de uno mismo y con la mente y sueños de los demás. La escritura lo ha ayudado a traer al presente todas esas voces que quizás no fueron escuchadas, tomadas en cuenta o completamente ignoradas. Además, que también la escritura le ha servido para divertirse, encontrar nuevos terrenos y colores en donde poder expresar el cumulo de emociones que cohexisten dentro de cada uno de nosotros. 
+También, ha incursionado en el periodismo cultural, escribiendo columnas y artículos sobre temas de arte, cultura y opinión.
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="container">
+					<p id="textobio">
+						A través de éste ejercicio se ha podido encontrar con el otro, artesano, creador o simplemente lector, compartiendo puntos de vista, opiniones, diferencias y experiencias que convierten al mundo de las artes y la cultura en un escenario riquísimo y estimulante. 
+Siendo actor de doblaje, ha realizado trabajos para la radio y videos promocionales de marcas y compañías teatrales donde ha promocionado obras, danzas, musicales y otros proyectos variados en donde se vea reflejado su interes artístico, lúdico y social.
+En resumen, Ricardo es una persona que ha vuelto a ver las cosas de manera nueva, estimulante y apasionante. Sensible, no solamente al teatro y la escritura que son sus fuertes, también se ha permitido vivir otras experiencias, abrirse a nuevas sensibilidades y con su visión colectiva, poder construir proyectos que intenten decir algo, traten de llegar al corazón y mente de las personas, pensando, reflexionando, sintiendo algo que podría cambiarles la perspectiva sobre un tema o dejándolas platicando largas horas después de la función. 
+
+					</p>
+				</div>
+			</div>
+		</div>
+		<br><br>
+
+		<div class="container">
+			<div class="col-sm-6">
+				<div class="container" align="center" style="padding-top:15px;padding-bottom:15px;">
+					<img src="./imagenes/bio/ExpLaboral.png" style="max-width:300px;">
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="container" align="center" style="padding-top:15px;padding-bottom:15px;">
+					<img src="./imagenes/bio/Logros.png" style="max-width:300px;">
+				</div>
+			</div>
+		</div>
+
+		<br><br><br>
+
+		<footer class="container-fluid white py-5" style="background: #CB8B27;">
+			<div class="col-md-3">
+				<div class="">
+					<div align="center" id="textologofooter">
+						<p>Ricardo Sierra</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="container">
+					<ul style="list-style-type:none;padding-left:-20px;padding-inline-start: 0px;">
+						<li> <a id="textosfooter" onClick="location.href='main.html'">Inicio</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='bio.html'">Bio</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='escritos.html'">Escritos</a> </li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="container">
+					<ul style="list-style-type:none;padding-left:-20px;padding-inline-start: 0px;">
+						<li> <a id="textosfooter" onClick="location.href='mitrabajo.html'">Mi trabajo</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='fotos.html'">Fotos</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='contacto.html'">Contacto</a> </li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="container">
+					<p class="textofooterdeux">Diseñado por DEUX® Diseño de experiencia</p>
+				</div>
+			</div>
+			<br>
+		</footer>
+		
+</body>
