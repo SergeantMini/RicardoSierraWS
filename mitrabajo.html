@@ -24,15 +24,15 @@
 
 	<body style="overflow-x:hidden;">
 		<div align="center" id="textologomenu">
-			<p>Ricardo Sierra</p>
+			<p  onClick="location.href='home.html'" style="cursor:default">Ricardo Sierra</p>
 		</div>
 		<!-- responsive top menu -->
 		<div class="topnav" id="myTopnav" style="width: 100%; display: flex; justify-content: center;">
 			<div class="topnav-centered">
 				<a style="visibility: hidden;" href="#Inicio"></a>
-				<a href="#Inicio" onClick="location.href='main.html'">Inicio</a>
+				<a href="#Inicio" onClick="location.href='home.html'">Inicio</a>
 				<a href="#Bio" onClick="location.href='bio.html'">Bio</a>
-				<a href="#Escritos" onClick="location.href='escritos.html'">Escritos</a>
+				<a href="#Escritos" onClick="location.href='Escritos.html'">Escritos</a>
 				<a href="#MiTrabajo" class="active" onClick="location.href='mitrabajo.html'">Mi trabajo</a>
 				<a href="#Fotos" onClick="location.href='fotos.html'">Fotos</a>
 				<a href="#Contacto" onClick="location.href='contacto.html'">Contacto</a>
@@ -62,13 +62,19 @@
 		
 		<br><br>
 		
-		<div class="container">
-			<div class="col-sm-6" id="separaciones">
+		<div class="row">
+			<div class="col-sm-5" id="separaciones">
 				<div class="container">
 					<div align="center">
 						<img id="imgmiTrabajo" src="./imagenes/miTrabajo/GritaCultura.png">
 						<br>
-						<table>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-7">
+				<div class="portadaculturaes" style="background-image: url('./imagenes/miTrabajo/CulturaEs.png');background-size: 100% 100%;background-repeat: no-repeat;">
+					<div align="center">
+						<table class="tablamitrabajo">
 							<th>
 								<div id="separaciones">
 									<a href="https://www.instagram.com/gritacultura/" target="_blank">
@@ -91,24 +97,69 @@
 								</div>
 							</th>
 						</table>
-						<br>
-						<div class="container">
-							<p id="textosmiTrabajo">
-								Canal de difusión cultural🤓</br>
-								Aquí platicamos, reímos, chismeamos,</br>
-								lloramos y gritamos cultura.</br>
-								#CulturaEs
-							</p>
-						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6"id="separaciones">
+		</div>
+		
+		<br><br><br><br>
+
+		<div class="container" align="center">
+			<div id="separaciones" style="width:80%">
+				<p id="textosmiTrabajo">
+					<span style="color:#CB8B27;font-weight: 600;">“¡Grita Cultura!”</span> es una empresa encargada sobre temas culturales y artísticos que surge de la necesidad e interés de fomentar la cultura y las artes entre los jóvenes de México y el mundo. Es nuestro objetivo difundir el arte y la cultura de una manera distinta, dinámica y divertida.
+				</p>
+			</div>
+		</div>
+
+		<br><br><br><br>
+
+		<div class="row" style="background-color: #F9F7F7;padding-right:5%;padding-left:5%;">
+			<div class="col-sm-6">
+				<div class="container" align="center">
+					<br>
+					<div id="separaciones">
+						<iframe 
+							src="https://www.youtube.com/embed/dSRd-8wg1ZI" 
+							style="height:250px;width:90%;"
+							frameborder="0"
+							allowfullscreen>
+						</iframe>
+					</div>
+					<br>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="container" align="center">
+					<br>
+					<div id="separaciones">
+						<iframe 
+							src="https://www.youtube.com/embed/wnN5jJbm_Hs"
+							style="height:250px;width:90%;"
+							frameborder="0"
+							allowfullscreen>
+						</iframe>
+					</div>
+					<br>
+				</div>
+			</div>
+		</div>
+
+		<br><br><br><br>
+		
+		<div class="row">
+			<div class="col-sm-5" id="separaciones">
 				<div class="container">
 					<div align="center">
 						<img id="imgmiTrabajo" src="./imagenes/miTrabajo/FilmandoAGodot.png">
 						<br>
-						<table>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-7">
+				<div class="portadaculturaes" style="background-image: url('./imagenes/inicio/FilmandoAGodot.png');background-size: 100% 100%;background-repeat: no-repeat;">
+					<div align="center">
+						<table class="tablamitrabajo">
 							<th>
 								<div id="separaciones">
 									<a href="https://www.instagram.com/filmandoagodot/" target="_blank">
@@ -131,49 +182,99 @@
 								</div>
 							</th>
 						</table>
-						<br>
-						<div class="container">
-							<p id="textosmiTrabajo">
-								Compañía de cine independiente. Somos un</br>
-								equipo amplio de emprendedores y artistas </br>
-								con un solo fin: trascender y filmar</br>
-								proyectos que pasen a la historia.
-							</p>
-						</div>
 					</div>
 				</div>
 			</div>
+		</div>	
+		
+		<br><br><br><br>
+
+		<div class="container" align="center">
+			<div id="separaciones" style="width:80%">
+				<p id="textosmiTrabajo">
+					Casa productora con 6 años de experiencia, Filmando a Godot surge de la inquietud y necesidad de algunos estudiantes de las carreras de teatro y comunicación de la Universidad de las Américas Puebla, de generar cortometrajes donde poder experimentar y divertirse logrando, sensillamente, contar historias.	
+				</p>
+			</div>
 		</div>
-		
-		<br>
-		
-		<div class="container">
-			<div align="center">
+
+		<br><br><br><br>
+
+		<div class="row" style="background-color: #F9F7F7;">
+			<div class="col-sm-6">
+				<div class="container" align="center">
+					<br>
+					<div id="separaciones">
+						<iframe 
+							src="https://player.vimeo.com/video/169701670?h=a4e36d3160" 
+							style="height:300px;width:100%;"
+							frameborder="0"
+							allowfullscreen>
+						</iframe>
+					</div>
+					<br>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="container" align="center">
+					<br>
+					<div id="separaciones">
+						<iframe 
+							src="https://player.vimeo.com/video/366799850?h=bf5d810fb3"
+							style="height:300px;width:100%;"
+							frameborder="0"
+							allowfullscreen>
+						</iframe>
+					</div>
+					<br>
+				</div>
+			</div>
+		</div>
+
+		<br><br>
+
+		<div class="row">
+			<div class="col-sm-5" id="separaciones">
+				<div class="container">
+					<div align="center">
 						<img id="imgmiTrabajo" src="./imagenes/miTrabajo/Doblaje.png">
 						<br>
-						<table>
-							<th>
-								<tr>
-									
-								</tr>
-							</th>
-						</table>
-						<br>
-						<div class="container">
-							<p id="textosmiTrabajo" >
-								La voz también ha sido un instrumento y </br>
-								recurso muy valorado por Ricardo, quien</br>
-								desde sus influencias escuchando a las</br>
-								grandes actrices y actores de doblaje de</br>
-								México, <span style="color: #E5B32E;">ha podido generar proyectos</br>
-								tanto a nivel nacioal como internacional</br>
-								en radio y video. </span>
-							</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-7">
+				<div class="container" style="margin-top:80px;">
+					<h1 class="tituloescritosfull">
+						Doblaje
+					</h1>
+					<br>
+					<p id="txtareagris">
+						La voz también ha sido un instrumento y recurso muy valorado por Ricardo, quien desde sus influencias escuchando a las grandes actrices y actores de doblaje de México, <span style="color:#CB8B27;font-weight:600;">ha podido generar proyectos tanto a nivel nacioal como internacional en radio y video. </span>
+					</p>
+					<br>
+					<div class="container">
+						<div class="col-sm-6">
+							<div class="container">
+								<audio src="./audios/Poesia/El Árbol de mi Barrio.m4a" type="audio/x-m4a" controls>
+							</div>
+							<div class="container">
+								<audio src="./audios/Poesia/Agonia.m4a" type="audio/x-m4a" controls>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="container">
+								<audio src="./audios/Poesia/Curiosa Lengua.m4a" type="audio/x-m4a" controls>
+							</div>
+							<div class="container">
+								<audio src="./audios/Poesia/Hablar del hogar.m4a" type="audio/x-m4a" controls>
+							</div>
 						</div>
 					</div>
-		</div>		
-		
-		<br><br>
+					
+				</div>
+			</div>
+		</div>
+
+		<br><br><br><br>
 		
 		<footer class="container-fluid white py-5" style="background: #CB8B27;">
 			<div class="col-md-3">
@@ -186,9 +287,9 @@
 			<div class="col-md-2">
 				<div class="container">
 					<ul style="list-style-type:none;padding-left:-20px;padding-inline-start: 0px;">
-						<li> <a id="textosfooter" onClick="location.href='main.html'">Inicio</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='home.html'">Inicio</a> </li>
 						<li> <a id="textosfooter" onClick="location.href='bio.html'">Bio</a> </li>
-						<li> <a id="textosfooter" onClick="location.href='escritos.html'">Escritos</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='Escritos.html'">Escritos</a> </li>
 					</ul>
 				</div>
 			</div>
@@ -203,7 +304,7 @@
 			</div>
 			<div class="col-md-5">
 				<div class="container">
-					<p class="textofooterdeux">Diseñado por DEUX® Diseño de experiencia</p>
+					<p class="textofooterdeux">Diseñado por <a href="http://designdeux.com/" target="_blank" style="color:white;">DEUX®</a> Diseño de experiencia</p>
 				</div>
 			</div>
 			<br>

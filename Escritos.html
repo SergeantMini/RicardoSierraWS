@@ -16,7 +16,6 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
 	</head>
 
 	<body style="overflow-x:hidden;">
@@ -29,15 +28,15 @@
 				<a style="visibility: hidden;" href="#Inicio"></a>
 				<a href="#Inicio" onClick="location.href='home.html'">Inicio</a>
 				<a href="#Bio" onClick="location.href='bio.html'">Bio</a>
-				<a href="#Escritos" onClick="location.href='Escritos.html'">Escritos</a>
+				<a href="#Escritos" class="active" onClick="location.href='Escritos.html'">Escritos</a>
 				<a href="#MiTrabajo" onClick="location.href='mitrabajo.html'">Mi trabajo</a>
 				<a href="#Fotos" onClick="location.href='fotos.html'">Fotos</a>
-				<a href="#Contacto" class="active" onClick="location.href='contacto.html'">Contacto</a>
+				<a href="#Contacto" onClick="location.href='contacto.html'">Contacto</a>
 			</div>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 				<i class="fa fa-bars"></i>
 			</a>
-		</div>
+		</div>	
 		<script>
 			/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 			function myFunction() {
@@ -53,42 +52,80 @@
 		<br><br><br>
 		
 		<div align="center" class="container">
-			<h2 id="titulosconraya"><span>Contáctame</span></h2>
+			<h2 id="titulosconraya" style="text-align:left;">
+				<span style="color:black;font-weight:bold;">Escritos</span>
+			</h2>
 		</div>
-
-		<br><br><br><br>
-
+		<br><br>
 		<div class="container">
-			<div class="col-sm-6" id="separaciones">
-				<div class="container" id="separaciones" style="max-width:300px;background-color:#F9F7F7">
-					<p id="textobio" style="padding-left:15px;padding-right:15px;padding-top:10px;">
-						Quiero conocerte, cuéntame tu proyecto y déjame tu información para ponerme en contacto contigo.
-					</p>
+			<div class="col-sm-6">
+				<div class="container" algin="center" id="separaciones">
+					<div class="divescritosfull">
+						<p class="tituloescritosfull" onclick="location.href='poesias.html'" style="cursor: pointer;">
+							Poesía
+						</p>
+						<div class="container">
+							<p id="textoescritos">El árbol de mi barrio </br> Me inquietas </br>
+							Agonía o de cómo el Sol gira en nuestras lenguas </br> ¿Cómo va todo? 
+							</br> Curiosa lengua </br> Hablar del hogar </br> Herida abierta
+							</br> Lo que he perdido...<br><br></p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<div class="container" style="max-width:380px;">
-					<form target="_blank" action="https://formsubmit.co/ricardo.sierrazu@gmail.com" method="POST">
-						<div class="form-group">
-							<div class="">
-								<input type="text" name="name" style="max-width:350px;height:40px;" class="form-control " placeholder="Nombre" required>
-							</div>
+				<div class="container" algin="center" id="separaciones">
+					<div class="divescritosfull">
+						<p class="tituloescritosfull" onclick="location.href='columnas.html'" style="cursor: pointer;">
+							Columnas
+						</p>
+						<div class="container">
+							<p id="textoescritos">
+								Mujeres y saxofones al frente </br> 
+								La tierra bajo sus pies </br>
+								Canta Susana </br> 
+								Primeras reflexiones en los Andes </br> 
+								¡Tierra, Arte y Libertad! </br> 
+								Cacerolas y Guitarras </br> 
+								Cruzar la línea	</br> 
+								Born to be wild </br>
+								Houellebecq, un escritor encantador </br>
+								Una fotografía que baila <br>
+								¡Grita cultura! <br>
+								Con ganas de llorar <br>
+								Bandini <br>
+								Sequía </br>
+								Cuerpos soñando </br>
+								Somos </br>
+								Ojos que no ven, caminos que se pierden </br>
+								Ludicultura </br>
+								Rituales al escribir </br>
+								DiCaprio en Uganda </br>
+								Voces de nuestra infancia </br>
+								¡El poder de la cultura! </br>
+								¡Oliver deja el celular! </br>
+								One Vision </br>
+								Nuestras diferencias </br>
+								Puro Drama I:  El inicio de una aventura <br>
+								Colectivo: Puro Drama II <br>
+								Saudade <br>
+								¿El mundo está de fiesta...? <br>
+								¿Quién toca a la puerta? <br>
+								Las flores de la vida... <br>
+								Un desconocido llamado Rubén <br>
+								A Natural Woman <br>
+								El elogio a la ignorancia <br>
+								Sueño con irme... <br>
+								Sinergia
+							 </p>
 						</div>
-						<div class="form-group">
-							<div class="">
-								<input type="email" name="email" style="max-width:350px;height:40px;" class="form-control" placeholder="Email" required>
-							</div>
-						</div>
-						<div class="form-group">
-							<textarea placeholder="Escribe un mensaje" style="max-width:350px;" class="form-control" name="message" rows="10" required></textarea>
-						</div>
-						<button type="submit" style="float:right;" class="button">Enviar</button>
-					</form>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<br><br><br><br>	
+		<br>
+		<br>
 
 		<footer class="container-fluid white py-5" style="background: #CB8B27;">
 			<div class="col-md-3">

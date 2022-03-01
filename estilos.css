@@ -117,6 +117,15 @@ body {
   .textopoesia{
 	  width:auto;
   }
+
+  .portadaculturaes{
+	  float: center;
+  }
+
+  .tablamitrabajo{
+	background-color: white;
+  }
+  
   
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
@@ -138,6 +147,11 @@ body {
 	}
 	.textopoesia{
 		width:150px;
+	}
+	.portadaculturaes{
+		height:200px;
+		width:100%;
+		margin-top: 30px;
 	}
   }
   
@@ -170,6 +184,14 @@ body {
 	/* For desktop: */
 	.poesia{
 		column-count: 2;
+	}
+	.portadaculturaes{
+		height:330px;
+		width:700px;
+	}
+	.tablamitrabajo{
+		margin-top:280px;
+		float:left;
 	}
   }
 	  
@@ -279,6 +301,15 @@ hr {
 	letter-spacing: 0.9999997019767761px;
 	text-align: left;
 }
+#textoescritosCV{
+	font-family: Rubik;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 0px;
+	letter-spacing: 0.51px;
+	text-align: left;
+}
 
 #divtextosareagris{
 	padding-top:5%;
@@ -354,18 +385,18 @@ hr {
 #imgmiTrabajo{
 	border-radius:50%;
 	background-color: gray; 
-	width:300px;
-	height:300px;
+	width:250px;
+	height:250px;
 }
 
 #textosmiTrabajo{
 	font-family: Rubik;
-	font-size: 14px;
+	font-size: 18px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 17px;
-	letter-spacing: 1.1666662693023682px;
-	text-align: center;
+	line-height: 22px;
+	letter-spacing: 1.4999995231628418px;
+	text-align: left;
 }
 
 .tituloescritosfull{
@@ -396,4 +427,15 @@ hr {
 	text-align: right;
 	padding-top:30px;
 	color: #FFF
+}
+
+.subtitulonaranja{
+	font-family: Rubik;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: 0px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #E5B34EDC;
 }

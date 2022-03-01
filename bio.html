@@ -24,15 +24,15 @@
 
 	<body style="overflow-x:hidden;">
 		<div align="center" id="textologomenu">
-			<p>Ricardo Sierra</p>
+			<p  onClick="location.href='home.html'">Ricardo Sierra</p>
 		</div>
 		<!-- responsive top menu -->
 		<div class="topnav" id="myTopnav" style="width: 100%; display: flex; justify-content: center;">
 			<div class="topnav-centered">
 				<a style="visibility: hidden;" href="#Inicio"></a>
-				<a href="#Inicio" onClick="location.href='main.html'">Inicio</a>
+				<a href="#Inicio" onClick="location.href='home.html'">Inicio</a>
 				<a href="#Bio" class="active" onClick="location.href='bio.html'">Bio</a>
-				<a href="#Escritos" onClick="location.href='escritos.html'">Escritos</a>
+				<a href="#Escritos" onClick="location.href='Escritos.html'">Escritos</a>
 				<a href="#MiTrabajo" onClick="location.href='mitrabajo.html'">Mi trabajo</a>
 				<a href="#Fotos" onClick="location.href='fotos.html'">Fotos</a>
 				<a href="#Contacto" onClick="location.href='contacto.html'">Contacto</a>
@@ -86,7 +86,75 @@ En resumen, Ricardo es una persona que ha vuelto a ver las cosas de manera nueva
 				</div>
 			</div>
 		</div>
-		<br><br>
+		<br><br><br>
+
+		<style>
+			ul {
+  list-style: none;
+}
+li {
+  position: relative;
+  padding: 10px;
+}
+li a {
+  color: gray;
+}
+li:before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #CB8B27;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-40%);
+}
+
+li:not(:last-child):after {
+  content: '';
+  width: 2px;
+  height: 100%;
+  background: #CB8B27;
+  position: absolute;
+  left: -8px;
+  top: 50%;
+}
+		</style>
+
+		<dvi class="container">
+			<div class="col-sm-6">
+				<div class="container" align="center" style="padding-top:15px;padding-bottom:15px;max-width:450px;">
+					<p class="tituloescritosfull">Experiencia Laboral</p>
+					<ul class="">
+						<li><div class="container">
+								<p id="textoscontactame" style="white-space: pre-wrap;">Generador de Contenido 
+<span class="subtitulonaranja">Marca ¡Grita Cultura! (2020- vigente)</span>
+<span id="textoescritosCV">Creador de la marca ¡ Grita Cultura! con el objetivo depromocionar y difundir material audio-visual sobre temasculturales y artísticos, además de promover el talento de artistas emergentes.</span></p>
+								</div></li>	
+						<li><div class="container">
+							<p id="textoscontactame" style="white-space: pre-wrap;">Generador de Contenido 
+<span class="subtitulonaranja">Marca ¡Grita Cultura! (2020- vigente)</span>
+<span id="textoescritosCV">Creador de la marca ¡ Grita Cultura! con el objetivo depromocionar y difundir material audio-visual sobre temasculturales y artísticos, además de promover el talento de artistas emergentes.</span></p>
+							</div></li>
+						<li><div class="container">
+							<p id="textoscontactame" style="white-space: pre-wrap;">Generador de Contenido 
+<span class="subtitulonaranja">Marca ¡Grita Cultura! (2020- vigente)</span>
+<span id="textoescritosCV">Creador de la marca ¡ Grita Cultura! con el objetivo depromocionar y difundir material audio-visual sobre temasculturales y artísticos, además de promover el talento de artistas emergentes.</span></p>
+							</div></li>
+					  </ul>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="container" align="center" style="padding-top:15px;padding-bottom:15px;">
+					<ul class="">
+						<li><a href="">asd as</a></li>
+						<li><a href="">werwer we</a></li>
+						<li><a href="">werwer we</a></li>
+					  </ul>
+				</div>
+			</div>
+		</dvi>
 
 		<div class="container">
 			<div class="col-sm-6">
@@ -114,9 +182,9 @@ En resumen, Ricardo es una persona que ha vuelto a ver las cosas de manera nueva
 			<div class="col-md-2">
 				<div class="container">
 					<ul style="list-style-type:none;padding-left:-20px;padding-inline-start: 0px;">
-						<li> <a id="textosfooter" onClick="location.href='main.html'">Inicio</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='home.html'">Inicio</a> </li>
 						<li> <a id="textosfooter" onClick="location.href='bio.html'">Bio</a> </li>
-						<li> <a id="textosfooter" onClick="location.href='escritos.html'">Escritos</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='Escritos.html'">Escritos</a> </li>
 					</ul>
 				</div>
 			</div>
@@ -131,7 +199,7 @@ En resumen, Ricardo es una persona que ha vuelto a ver las cosas de manera nueva
 			</div>
 			<div class="col-md-5">
 				<div class="container">
-					<p class="textofooterdeux">Diseñado por DEUX® Diseño de experiencia</p>
+					<p class="textofooterdeux">Diseñado por <a href="http://designdeux.com/" target="_blank" style="color:white;">DEUX®</a> Diseño de experiencia</p>
 				</div>
 			</div>
 			<br>

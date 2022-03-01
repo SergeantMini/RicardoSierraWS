@@ -1,0 +1,335 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8">
+		<title>Ricardo Sierra</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/gelasio" type="text/css"/> 
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body style="overflow-x:hidden;">
+		<div align="center" id="textologomenu">
+			<p  onClick="location.href='home.html'">Ricardo Sierra</p>
+		</div>
+		<!-- responsive top menu -->
+		<div class="topnav" id="myTopnav" style="width: 100%; display: flex; justify-content: center;">
+			<div class="topnav-centered">
+				<a style="visibility: hidden;" href="#Inicio"></a>
+				<a href="#Inicio" class="active" onClick="location.href='home.html'">Inicio</a>
+				<a href="#Bio" onClick="location.href='bio.html'">Bio</a>
+				<a href="#Escritos" onClick="location.href='Escritos.html'">Escritos</a>
+				<a href="#MiTrabajo" onClick="location.href='mitrabajo.html'">Mi trabajo</a>
+				<a href="#Fotos" onClick="location.href='fotos.html'">Fotos</a>
+				<a href="#Contacto" onClick="location.href='contacto.html'">Contacto</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>		
+		<script>
+			/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+		</script>
+		<!-- primer header -->
+		<div style="background-image:url('./imagenes/inicio/RS.png');background-repeat: no-repeat;background-size: cover; width:100%;min-height:700px;">
+			<div class="container" align="center">
+				<div class="col-sm-4">
+					
+				</div>
+				<div class="col-sm-8">
+					<div class="textoinicial">
+						<h1 style="color: #E5B32E; font-size:3.5em;">Ricardo Sierra </h1>
+						<p style="color: white;font-size:2em;">
+							Estudió la Licenciatura en Teatro en la Universidad de las Américas Puebla, como también el diplomado en Escritura Creativa por parte de Literaria Centro. Fundador de las compañías ¡Grita Cultura! y Filmando a Godot, se ha desempeñado como escritor en narrativa, teatro y cine, como también ha trabajado como actor, director, guionista, actor de doblaje, director y asistente de dirección teatral. 
+						</p>
+						<br>
+						<div align="center" class="container">
+							<button class="button" onClick="location.href='bio.html'">Leer más</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<br><br>
+		
+		<div>
+			<div class="container">
+				<p id="titulosmain">
+					Escritos
+				</p>
+			</div>
+			<br>
+			<div class="container escritosmain" style="text-align:Center;width:70%;">
+				<div class="col-sm-6">
+					<div class="container" id="divescritos" align="center">
+						<p id="tituloescritos" onclick="location.href='poesias.html'" style="cursor: pointer;">Poesía</p>
+						<div class="container">
+							<p id="textoescritos">El árbol de mi barrio </br> Me inquietas </br>
+							Agonía o de cómo el Sol gira en nuestras lenguas </br> ¿Cómo va todo?</br>
+							Curiosa Lengua </br> Habla del hogar </br> Herida abierta </br>
+							Lo que he perdido</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div id="divescritos" class="container" align="center">
+						<p id="tituloescritos" onclick="location.href='columnas.html'" style="cursor: pointer;">Columnas</p>
+						<div class="container">
+							<p id="textoescritos">Mujeres y saxofones al frente </br> La tierra bajo sus pies </br>
+							Canta Susana </br> Primeras reflexiones en los Andes </br> ¡Tierra, Arte y Libertad! </br>
+							Cacerolas y guitarras </br> Cruzar la línea </br> Born to be wild</br></br></p>
+						</div>
+					</div>
+				</div>
+				<!--div class="col-sm-4">
+					<div id="divescritos" align="center">
+						<p id="tituloescritos">Cuentos</p>
+						<p id="textoescritos">---- </br> ---- </br>
+						---- </br> ---- </p>
+					</div>
+				</div-->
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div>
+			<div class="container">
+				<p id="titulosmain">
+					Mi trabajo
+				</p>
+			</div>
+			<div id="divsmitrabajo">
+				<div class="row flex-column-reverse flex-lg-row">
+					<div class="col-sm-6">
+						<div style="padding-top:20px;padding-bottom:20px;">
+							<div class="container" style="max-width:450px;height:300px;">
+								<div style="padding-top:20px;">
+									<iframe 
+										src="https://www.youtube.com/embed/dSRd-8wg1ZI" 
+										style="height:250px;width:100%;"
+										frameborder="0"
+										allowfullscreen>
+									</iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div id="divtextosareagris">
+							<h3 id="titulosareagris">¡Grita cultura!</h3>
+							<br><br>
+							<p id="txtareagris">
+								Canal de difusión cultural 🤓 </br>
+								Aquí platicamos, reímos, chismeamos, lloramos y gritamos cultura. #CulturaEs
+							</p>
+							<br>
+							<table>
+								<th>
+									<div id="separaciones">
+										<a href="https://www.instagram.com/gritacultura/" target="_blank">
+											<img src="./imagenes/miTrabajo/IGNaranja.svg" style="width:30px;">
+										</a>
+									</div>
+								</th>
+								<th>
+									<div id="separaciones">
+										<a href="https://www.facebook.com/gritacultura.mx" target="_blank">
+											<img src="./imagenes/miTrabajo/FBNaranja.svg" style="width:30px;">
+										</a>
+									</div>
+								</th>
+								<th>
+									<div id="separaciones">
+										<a href="https://www.youtube.com/channel/UCdnzS83Iz8JjJ3XFdLwkYJA?view_as=subscriber" target="_blank">
+											<img src="./imagenes/miTrabajo/YTNaranja.svg" style="width:30px;">
+										</a>
+									</div>
+								</th>
+							</table>
+							<br>
+							<button class="button" onclick="location.href='mitrabajo.html'">Leer más</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div id="divsmitrabajo">
+				<div class="container">
+					<div class="col-sm-6">
+						<div id="divtextosareagris">
+							<h3 id="titulosareagris">Filmando a Godot</h3>
+							<br><br>
+							<p id="txtareagris">
+								Compañía de cine independiente proveniente de la fusión de C.Q. </br>
+								Productions y Green Heaven Productions. 
+								Somos un equipo amplio de emprendedores y artistas con un solo fin: trascender y filmar proyectos que pasen a la historia.
+							</p>
+							<br>
+							<table>
+								<th>
+									<div id="separaciones">
+										<a href="https://www.instagram.com/filmandoagodot/" target="_blank">
+											<img src="./imagenes/miTrabajo/IGNegro.svg" style="width:30px;">
+										</a>
+									</div>
+								</th>
+								<th>
+									<div id="separaciones">
+										<a href="https://www.facebook.com/filmandoagodot" target="_blank">
+											<img src="./imagenes/miTrabajo/FBNegro.svg" style="width:30px;">
+										</a>
+									</div>
+								</th>
+								<th>
+									<div id="separaciones">
+										<a href="https://twitter.com/FilmandoaGodot" target="_blank">
+											<img src="./imagenes/miTrabajo/TWNegro.svg" style="width:30px;">
+										</a>
+									</div>
+								</th>
+							</table>
+							<br>
+							<button class="button" onclick="location.href='mitrabajo.html'">Leer más</button>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div style="padding-top:20px;padding-bottom:20px;">
+							<div class="container" style="max-width:450px;height:300px;">
+								<div style="padding-top:20px;">
+									<iframe 
+										src="https://player.vimeo.com/video/169701670?h=a4e36d3160" 
+										style="height:250px;width:100%;"
+										frameborder="0"
+										allowfullscreen>
+									</iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div  id="divsmitrabajo">
+				<div class="container">
+					<div class="col-sm-6">
+						<div id="divtextosareagris">
+							<h3 style="text-align:right;" id="titulosareagris">Doblaje</h3>
+							<br><br>
+							<p id="txtareagris">
+									La voz también ha sido un instrumento y recurso muy valorado por Ricardo, quien desde sus influencias escuchando a las grandes actrices y actores de doblaje de México, 
+									<span style="color:#E5B32E">
+										ha podido generar proyectos tanto a nivel nacioal como internacional en radio y video.
+									</span>
+							</p>
+							<br>
+							<br>
+							<button class="button" onclick="location.href='mitrabajo.html'">Leer más</button>
+						</div>
+					</div>
+					<div class="col-sm-6">
+
+					<br><br><br>
+					
+						<div class="container">
+							<audio src="./audios/Poesia/El Arbol de mi Barrio.m4a" type="audio/x-m4a" controls>
+						</div>
+						<div class="container">
+							<audio src="./audios/Poesia/Agonia.m4a" type="audio/x-m4a" controls>
+						</div>
+						<div class="container">
+							<audio src="./audios/Poesia/Curiosa Lengua.m4a" type="audio/x-m4a" controls>
+						</div>
+						<div class="container">
+							<audio src="./audios/Poesia/Hablar del hogar.m4a" type="audio/x-m4a" controls>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br><br>
+		<div class="container" align="center">
+			<p style="text-align:left;" id="titulosmain">
+				Contáctame
+			</p>
+			<form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+			<div class="form-group">
+				<div class="form-row" style="max-width:710px;">
+					<div class="col-sm-6">
+						<div>
+							<input type="text" name="name" style="max-width:350px;height:40px;" class="form-control" placeholder="Nombre" required>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div>
+							<input type="email" name="email" style="max-width:350px;height:40px;" class="form-control" placeholder="Email" required>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<textarea placeholder="Escribe un mensaje" style="max-width:700px;" class="form-control" name="message" rows="10" required></textarea>
+			</div>
+			<button type="submit" style="float:right;" class="button">Enviar</button>
+			</form>
+		</div>
+		
+		<br><br><br>
+		
+		<footer class="container-fluid white py-5" style="background: #CB8B27;cursor: default;">
+			<div class="col-md-3">
+				<div class="">
+					<div align="center" id="textologofooter">
+						<p>Ricardo Sierra</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="container">
+					<ul style="list-style-type:none;padding-left:-20px;padding-inline-start: 0px;">
+						<li> <a id="textosfooter" onClick="location.href='home.html'">Inicio</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='bio.html'">Bio</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='Escritos.html'">Escritos</a> </li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="container">
+					<ul style="list-style-type:none;padding-left:-20px;padding-inline-start: 0px;">
+						<li> <a id="textosfooter" onClick="location.href='mitrabajo.html'">Mi trabajo</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='fotos.html'">Fotos</a> </li>
+						<li> <a id="textosfooter" onClick="location.href='contacto.html'">Contacto</a> </li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="container">
+					<p class="textofooterdeux">Diseñado por <a href="http://designdeux.com/" target="_blank" style="color:white;">DEUX®</a> Diseño de experiencia</p>
+				</div>
+			</div>
+			<br>
+		</footer>
+</body>
